@@ -1,0 +1,28 @@
+h1 {
+    color: #007bff;
+    margin: 2rem;
+}
+
+div {
+    font-size: 1.1rem;
+    margin: 2rem auto;
+    padding: 1rem;
+    width: 70%;
+    min-height: 12vh;
+    border: 1px solid #aa2233;
+    box-shadow: 5px 5px 5px #93a1a1;
+    background-color: #dddddd;
+}
+
+div:nth-child(even) {
+    font-size: 1.4rem;
+}
+
+span {
+    color: red;
+    width: 250px;
+    margin: 1rem;
+    padding: 2rem;
+    border: 1px dotted deeppink;
+    display: inline-block; /* Ajout pour que width, margin et padding soient pris en compte */
+}

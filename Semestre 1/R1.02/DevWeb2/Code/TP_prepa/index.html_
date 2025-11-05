@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="fr">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Travaux Pratiques - Préparation</title>
+    <link rel="stylesheet" href="styles/style.css" />
+  </head>
+  <body>
+    <h1>Travaux Pratiques - Préparation</h1>
+    <ul>
+      <li>abc</li>
+      <li>def</li>
+      <li>ghi</li>
+      <li>jkl</li>
+      <li>mnop</li>
+    </ul>
+    <p>paragraphe 1</p>
+    <p>paragraphe 2</p>
+    <p>paragraphe 3</p>
+    <p>paragraphe 4</p>
+    <p>paragraphe 5</p>
+    <p>paragraphe 6</p>
+    <p>paragraphe 7</p>
+    <p>paragraphe 8</p>
+    <p>paragraphe 9</p>
+    <p>paragraphe 10</p>
+    <ul>
+      <li>
+        Lorem ipsum dolor sit amet consectetur, adipisicing elit. Provident,
+        ipsum!
+      </li>
+      <li>
+        Eaque delectus adipisci quae quod ipsa aliquid optio consequatur!
+        Quibusdam.
+      </li>
+      <li>Quo optio doloribus eligendi soluta. In nemo fugit facilis cum!</li>
+      <li>
+        Illo veritatis nihil laudantium maxime impedit repellendus enim incidunt
+        reprehenderit.
+      </li>
+      <li>
+        Dolorum eveniet eos omnis odio amet voluptatibus quaerat nam dolor?
+      </li>
+    </ul>
+    <img src="images /tigre.jpg" />
+    <img
+      src="https://plus.unsplash.com/premium_photo-1666672388644-2d99f3feb9f1?q=80&w=870&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+    />
+    <article>
+      <header>
+        <h2>Article Principal</h2>
+        <h3>Sous-titre de l’article</h3>
+      </header>
+
+      <section>
+        <p>Premier paragraphe de la première section.</p>
+        <p>Deuxième paragraphe de la première section.</p>
+        <ol>
+          <li>Élément A</li>
+          <li>Élément B</li>
+          <li>Élément C</li>
+          <li>Élément D</li>
+          <li>Élément E</li>
+        </ol>
+      </section>
+
+      <section>
+        <p>Premier paragraphe de la deuxième section.</p>
+        <p>Deuxième paragraphe de la deuxième section.</p>
+        <ol>
+          <li>Élément A</li>
+          <li>Élément B</li>
+          <li>Élément C</li>
+          <li>Élément D</li>
+          <li>Élément E</li>
+        </ol>
+      </section>
+
+      <section>
+        <p>Premier paragraphe de la troisième section.</p>
+        <p>Deuxième paragraphe de la troisième section.</p>
+        <ol>
+          <li>Élément A</li>
+          <li>Élément B</li>
+          <li>Élément C</li>
+          <li>Élément D</li>
+          <li>Élément E</li>
+        </ol>
+      </section>
+
+      <section>
+        <p>Premier paragraphe de la quatrième section.</p>
+        <p>Deuxième paragraphe de la quatrième section.</p>
+        <ol>
+          <li>Élément A</li>
+          <li>Élément B</li>
+          <li>Élément C</li>
+          <li>Élément D</li>
+          <li>Élément E</li>
+        </ol>
+      </section>
+    </article>
+    <p id="nom">Saisir votre nom :</p>
+    <script src="scripts/script.js"></script>
+  </body>
+</html>

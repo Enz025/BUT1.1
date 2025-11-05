@@ -1,0 +1,56 @@
+body {
+    background-color: yellow; 
+    padding: 20px;
+}
+
+p {
+    color: red; 
+    font-size: 16px;
+    margin-bottom: 15px;
+}
+ol { 
+    color: brown; 
+    font-size: 16px;
+    margin-bottom: 15px;
+}
+li:last-of-type {   /* Dernier élément de la liste */
+    color: green;
+    font-style: italic; 
+}
+
+li:first-of-type { /* Premier élément de la liste */
+    color: blue;
+    font-style: italic; 
+}
+
+p:last-of-type { /* Dernier paragraphe */
+    color: blue; 
+    font-weight: bold; 
+}
+
+li:nth-child(3n) { /* Chaque 3ème élément de la liste */
+    color: blue
+}
+
+
+li:nth-child(even) { /* Éléments pairs de la liste */
+    color: #8dcffc;
+}
+
+li:nth-child(odd) { /* Éléments impairs de la liste */
+    color: #fc8d8d;
+}
+ol li:nth-child(3n+4) { /* Chaque 3ème élément de la liste en partant du 4ème */
+    color: purple;
+    font-weight: bold; 
+}
+
+/* Mettre la moitié des li d'une couleur (première moitié en bleu) */
+ol li:nth-child(-n+1) {
+    color: blue;
+}
+
+/* Tous les li d'une couleur sauf le dernier (tous sauf dernier en noir) */
+ol li:not(:last-child) {
+    color: black;
+}

@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8" />
+  <title>Travaux Pratiques - 1</title>
+</head>
+<body>
+  <header>
+    <h1>Mon site de foot</h1>
+    <nav>
+      <ul>
+        <li><a href="index.html">Accueil</a></li>
+        <li><a href="travail.html">Travail</a></li>
+        <li><a href="formulaire.html">Formulaire</a></li>
+        <li><a href="http://www.iut-lens.univ-artois.fr/" target="_blank">IUT de Lens</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <!-- Section 1 : Formulaire de connexion -->
+  <section>
+    <h2>Formulaire de connexion</h2>
+    <form name="connexion" method="post" action="">
+      <fieldset>
+        <legend>Connexion</legend>
+        <p>
+          <label for="identifiant">Identifiant :</label>
+          <input type="text" id="identifiant" name="identifiant" required>
+        </p>
+        <p>
+          <label for="mdp">Mot de passe :</label>
+          <input type="password" id="mdp" name="mdp" required>
+        </p>
+        <p>
+          <input type="reset" value="Annuler">
+          <input type="submit" value="Valider">
+        </p>
+      </fieldset>
+    </form>
+  </section>
+
+  <!-- Section 2 : Formulaire de renseignements -->
+  <section>
+    <h2>Formulaire de renseignements</h2>
+    <form name="renseignements" method="post" action="" enctype="multipart/form-data">
+      <fieldset>
+        <legend>Vos renseignements</legend>
+        <p>
+          <label for="nom">Nom :</label>
+          <input type="text" id="nom" name="nom" required>
+        </p>
+        <p>
+          <label for="prenom">Prénom :</label>
+          <input type="text" id="prenom" name="prenom" required>
+        </p>
+        <p>
+          <label for="naissance">Date de naissance :</label>
+          <input type="date" id="naissance" name="naissance">
+        </p>
+        <p>
+          <label for="mail">Mail :</label>
+          <input type="email" id="mail" name="mail">
+        </p>
+        <p>
+          <label for="site">Votre site :</label>
+          <input type="url" id="site" name="site">
+        </p>
+        <p>
+          <label for="code">Code :</label>
+          <input type="text" id="code" name="code">
+        </p>
+        <p>
+          Genre :
+          <input type="radio" id="homme" name="genre" value="Homme">
+          <label for="homme">Homme</label>
+          <input type="radio" id="femme" name="genre" value="Femme">
+          <label for="femme">Femme</label>
+        </p>
+        <p>
+          <label for="pays">Pays :</label>
+          <select id="pays" name="pays">
+            <option value="">Votre pays</option>
+            <option value="France">France</option>
+            <option value="Belgique">Belgique</option>
+            <option value="Canada">Canada</option>
+          </select>
+        </p>
+        <p>
+          <label for="plats">Vos plats préférés :</label>
+          <select id="plats" name="plats[]" multiple size="4">
+            <option value="Frites mayonnaise">Frites mayonnaise</option>
+            <option value="Salade Niçoise">Salade Niçoise</option>
+            <option value="Turbo et ses petits légumes">Turbo et ses petits légumes</option>
+            <option value="Tarte aux prunes">Tarte aux prunes</option>
+          </select>
+        </p>
+        <p>
+          <label for="gouts">Décrivez vos goûts :</label><br>
+          <textarea id="gouts" name="gouts" rows="4" cols="40"></textarea>
+        </p>
+        <p>
+          <label for="photo">Votre photo :</label>
+          <input type="file" id="photo" name="photo">
+        </p>
+        <p>
+          <input type="reset" value="Effacer">
+          <input type="submit" value="Envoyer">
+        </p>
+      </fieldset>
+    </form>
+  </section>
+
+  <footer>
+    <p>&copy; 2025 - Mon site foot</p>
+  </footer>
+</body>
+</html>

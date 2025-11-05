@@ -1,0 +1,225 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8" />
+    <link rel="stylesheet" href="styles /style.css" />
+    <title>Travaux Pratiques - 1</title>
+</head>
+<body>
+  <header>
+    <h1>Mon site de foot </h1> 
+    <nav>
+      <ul>
+        <li><a href="#actu">Actualités</a></li>
+        <li><a href="#sport">Sport</a></li>
+        <li><a href="#contact">Contact</a></li>
+        <li><a href="travail.html">Travail</a></li>
+        <li><a href="formulaire.html">Formulaire</a></li>
+        <li><a href="http://www.iut-lens.univ-artois.fr/" target="_blank">IUT de Lens</a></li>
+        <li><a href="#multimedia">Aller au multimédia</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <article id="actu">
+    <header>
+      <h2>Article 1 : Actualités</h2> 
+    </header>
+    <section>
+      <h3>Section 1</h3>
+      <p>Contenu de la première section de l’article 1.</p>
+    </section>
+    <section>
+      <h3>Section 2</h3>
+      <p>Contenu de la deuxième section de l’article 1.</p>
+    </section>
+    <footer>
+      <p>Fait par moi </p> 
+    </footer>
+  </article>
+
+  <article id="sport">
+    <header>
+      <h2>Article 2 : Foot </h2> 
+    </header>
+    <section>
+      <h3>Section 1</h3>
+      <p>Résultats sportifs récents.</p>
+    </section>
+    <section>
+      <h3>Section 2</h3>
+      <p>Les joueurs.</p>
+    </section>
+    <figure>
+      <img src="https://madeinfoot.ouest-france.fr/photos/ligue-des-champions/2015/zoom/equipe-barcelone-15-04-2015-paris-saint-germain---barcelone-1-4finale-aller-champions-league-20150416143520-4970.jpg" alt="Équipe du FC Barcelone contre le PSG" />
+      <figcaption>Illustration de l'équipe</figcaption> 
+    </figure>
+    <footer>
+      <p>Auteur : madeinfoot.ouest-france </p>
+    </footer>
+  </article>
+
+  <div>
+    <blockquote cite="https://citation-celebre.leparisien.fr/citation/football">
+      <q>Les performances individuelles, ce n'est pas le plus important. On gagne et on perd en équipe.</q>
+    </blockquote>
+    <p>—Zinedine Zidane, <cite>Citation Football</cite></p> 
+  </div>
+
+  <pre>
+  L          TE
+    A       A
+      C    V
+       R A
+        DOU
+       LOU
+      REUSE
+      QUE TU
+      PORTES
+    ET QUI T'
+    ORNE O CI
+     VILISÉ
+    OTE-  TU VEUX
+     LA    BIEN
+    SI      RESPI
+            RER       - Apollinaire
+  </pre> 
+
+  <section>
+    <h2>Exemple de texte sémantique</h2>
+    <p><strong>Important :</strong> ce mot est mis en avant.</p>
+    <p><em>Attention :</em> ceci est en italique pour l’emphase.</p>
+    <p>L’abréviation <abbr title="HyperText Markup Language">HTML</abbr> est utilisée partout.</p> <!-- 👉 Change l’abréviation si tu veux (ex: CSS) -->
+    <p>Nous sommes le <time datetime="2025-09-23">23 septembre 2025</time>.</p> 
+    <p>Un exemple de code : <code>console.log("Hello");</code></p> <!-- 👉 Tu peux écrire une autre ligne de code -->
+  </section>
+
+  <section>
+    <h2>Les listes</h2>
+    <h3>Liste non ordonnée</h3>
+    <ul>
+      <li>ballon</li>
+      <li>coach</li>
+      <li>maillot</li>
+    </ul> 
+    <h3>Liste ordonnée (nombres)</h3>
+    <ol>
+      <li>Étape 1</li>
+      <li>Étape 2</li>
+      <li>Étape 3</li>
+    </ol> 
+    <h3>Liste ordonnée (lettres)</h3>
+    <ol type="A">
+      <li>Option A</li>
+      <li>Option B</li>
+      <li>Option C</li>
+    </ol> 
+    <h3>Liste de définitions</h3>
+    <dl>
+      <dt>HTML</dt><dd>Langage de balisage</dd>
+      <dt>CSS</dt><dd>Feuilles de style</dd>
+      <dt>JS</dt><dd>Langage de script</dd>
+    </dl> 
+  </section>
+
+  <section id="multimedia">
+    <h2>Multimédia</h2>
+    <audio controls>
+      <source src="media/musique.mp3" type="audio/mpeg">
+      Votre navigateur ne supporte pas l’audio.
+    </audio> <!-- 👉 Mets un fichier audio que tu aimes -->
+    <video controls width="320" height="240">
+      <source src="media/video.mp4" type="video/mp4">
+      Votre navigateur ne supporte pas la vidéo.
+    </video> <!-- 👉 Mets une vidéo qui te plaît -->
+    <canvas id="dessin" width="500" height="200"></canvas>
+    <script async defer src="scripts/dessin.js"></script>
+  </section>
+
+  <section>
+    <h2>Autres contenus</h2>
+    <img src="https://sf.football.fr/wp-content/uploads/2024/03/Bradley-Barcola-PSG-750x368.jpg" alt="Image aléatoire" /> 
+    <map name="plan">
+      <area shape="rect" coords="34,44,270,350" href="https://example.com" alt="Zone 1">
+    </map> 
+    <iframe src="https://www.iut-lens.univ-artois.fr/" width="400" height="300" title="IUT Lens"></iframe>
+  </section>
+
+  <section>
+    <h2>Tableaux</h2>
+    <h3>Table de multiplication (0-9)</h3>
+    <table border="1">
+      <caption>Table de multiplication</caption>
+      <tbody>
+        <tr>
+          <th>*</th>
+          <th>0</th><th>1</th><th>2</th><th>3</th><th>4</th><th>5</th><th>6</th><th>7</th><th>8</th><th>9</th>
+        </tr>
+        <tr><th>1</th><td>0</td><td>1</td><td>2</td><td>3</td><td>4</td><td>5</td><td>6</td><td>7</td><td>8</td><td>9</td></tr>
+        <tr><th>2</th><td>0</td><td>2</td><td>4</td><td>6</td><td>8</td><td>10</td><td>12</td><td>14</td><td>16</td><td>18</td></tr>
+        <tr><th>3</th><td>0</td><td>3</td><td>6</td><td>9</td><td>12</td><td>15</td><td>18</td><td>21</td><td>24</td><td>27</td></tr>
+        <tr><th>4</th><td>0</td><td>4</td><td>8</td><td>12</td><td>16</td><td>20</td><td>24</td><td>28</td><td>32</td><td>36</td></tr>
+        <tr><th>5</th><td>0</td><td>5</td><td>10</td><td>15</td><td>20</td><td>25</td><td>30</td><td>35</td><td>40</td><td>45</td></tr>
+        <tr><th>6</th><td>0</td><td>6</td><td>12</td><td>18</td><td>24</td><td>30</td><td>36</td><td>42</td><td>48</td><td>54</td></tr>
+        <tr><th>7</th><td>0</td><td>7</td><td>14</td><td>21</td><td>28</td><td>35</td><td>42</td><td>49</td><td>56</td><td>63</td></tr>
+        <tr><th>8</th><td>0</td><td>8</td><td>16</td><td>24</td><td>32</td><td>40</td><td>48</td><td>56</td><td>64</td><td>72</td></tr>
+        <tr><th>9</th><td>0</td><td>9</td><td>18</td><td>27</td><td>36</td><td>45</td><td>54</td><td>63</td><td>72</td><td>81</td></tr>
+      </tbody>
+    </table>
+
+    <h3>Emploi du temps</h3>
+    <table border="1">
+      <caption>Emploi du temps</caption>
+      <thead>
+        <tr>
+          <th rowspan="2">Jour</th>
+          <th colspan="2">Matin</th>
+          <th colspan="2">Après-midi</th>
+        </tr>
+        <tr>
+          <th>Groupe A</th><th>Groupe B</th><th>Groupe A</th><th>Groupe B</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td>Lundi</td>
+          <td>Maths</td><td>Physique</td><td>Informatique</td><td>Anglais</td>
+        </tr>
+        <tr>
+          <td>Mardi</td>
+          <td colspan="2">Projet commun</td><td>Sport</td><td>Libre</td>
+        </tr>
+      </tbody>
+    </table> 
+
+        <h4>Tableau bonus TP2</h4>
+    <table border="1"> 
+      <tr>  
+      <caption>Tableau</caption>
+      <td class="vert">A1</td>
+      <td class="vert">B1</td>
+      <td class="vert">C1</td>
+      </tr>
+      <tr>
+      <td class="bleu">A2</td>
+      <td class="bleu">B2</td>
+      <td class="bleu">C2</td>
+      </tr>
+      <tr>
+      <td class="orange1">A3</td>
+      <td class="orange1">B3</td>
+      <td class="orange1">C3</td>
+      </tr>
+    </table> 
+  </section>
+
+  <aside>
+    <h2>À propos</h2>
+    <p>Ce site regroupe différents articles.</p> 
+  </aside>
+
+  <footer>
+    <p>&copy; 2025 - Mon site foot </p> 
+  </footer>
+</body>
+</html>

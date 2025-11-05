@@ -1,0 +1,8 @@
+{
+  "java.project.referencedLibraries": [
+    "lib/**/*.jar",
+    "cartes.jar",
+    "TP1/cartes.jar",
+    "TP1_cartes /cartes.jar"
+  ]
+}

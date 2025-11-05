@@ -1,0 +1,427 @@
+<userName>
+<time>1760704553974</time>
+<content>
+LE BLOAS
+</content>
+</userName>
+<userFirstName>
+<time>1760704553974</time>
+<content>
+Enzo
+</content>
+</userFirstName>
+<userEmail>
+<time>1760704553974</time>
+<content>
+enzo.lebloas@gmail.com
+</content>
+</userEmail>
+<open>
+<time>1760704553974</time>
+<content>
+session_0005_17-10-2025_14h35min53s_QUIZ_Examen_1_Sujet_3_(jfcquiz.2023.BUT_INFO_R1_05.QUIZ_Examen_1_Sujet_3)
+</content>
+</open>
+<AttemptQuestion>
+<time>1760704624633</time>
+<content>
+1_1
+</content>
+</AttemptQuestion>
+<AttemptQuery>
+<time>1760704624633</time>
+<content>
+SELECT duree 
+FROM FILM 
+WHERE id_film = 30 
+</content>
+</AttemptQuery>
+<ResultMessage>
+<time>1760704624640</time>
+<content>
+Bravo ! Requête validée !
+</content>
+</ResultMessage>
+<ResultCode>
+<time>1760704624640</time>
+<content>
+1
+</content>
+</ResultCode>
+<AttemptQuestion>
+<time>1760704700149</time>
+<content>
+1_2
+</content>
+</AttemptQuestion>
+<AttemptQuery>
+<time>1760704700149</time>
+<content>
+SELECT id_genre
+FROM GENRE 
+WHERE nom_genre = 'Science fiction'
+</content>
+</AttemptQuery>
+<ResultMessage>
+<time>1760704700157</time>
+<content>
+Bravo ! Requête validée !
+</content>
+</ResultMessage>
+<ResultCode>
+<time>1760704700157</time>
+<content>
+1
+</content>
+</ResultCode>
+<AttemptQuestion>
+<time>1760704796215</time>
+<content>
+2_1
+</content>
+</AttemptQuestion>
+<AttemptQuery>
+<time>1760704796215</time>
+<content>
+SELECT id_real,prenom,nom
+FROM REALISATEUR 
+WHERE ville_n IS NULL
+ORDER BY id_real DESC 
+</content>
+</AttemptQuery>
+<ResultMessage>
+<time>1760704796222</time>
+<content>
+Bravo ! Requête validée !
+</content>
+</ResultMessage>
+<ResultCode>
+<time>1760704796222</time>
+<content>
+1
+</content>
+</ResultCode>
+<AttemptQuestion>
+<time>1760704986462</time>
+<content>
+2_2
+</content>
+</AttemptQuestion>
+<AttemptQuery>
+<time>1760704986462</time>
+<content>
+SELECT id_film,titre
+FROM FILM 
+WHERE annee_sortie < 2000
+ORDER BY annee_sortie DESC,id_film DESC 
+</content>
+</AttemptQuery>
+<ResultMessage>
+<time>1760704986471</time>
+<content>
+Bravo ! Requête validée !
+</content>
+</ResultMessage>
+<ResultCode>
+<time>1760704986471</time>
+<content>
+1
+</content>
+</ResultCode>
+<AttemptQuestion>
+<time>1760705093443</time>
+<content>
+2_3
+</content>
+</AttemptQuestion>
+<AttemptQuery>
+<time>1760705093443</time>
+<content>
+SELECT id_real,nom
+FROM REALISATEUR 
+WHERE prenom LIKE '%r%s'
+ORDER BY id_real DESC 
+</content>
+</AttemptQuery>
+<ResultMessage>
+<time>1760705093451</time>
+<content>
+Bravo ! Requête validée !
+</content>
+</ResultMessage>
+<ResultCode>
+<time>1760705093451</time>
+<content>
+1
+</content>
+</ResultCode>
+<AttemptQuestion>
+<time>1760705262241</time>
+<content>
+2_4
+</content>
+</AttemptQuestion>
+<AttemptQuery>
+<time>1760705262241</time>
+<content>
+SELECT DISTINCT annee_sortie
+FROM FILM 
+WHERE annee_sortie BETWEEN 2000 AND 2007 
+ORDER BY annee_sortie DESC 
+</content>
+</AttemptQuery>
+<ResultMessage>
+<time>1760705262248</time>
+<content>
+Bravo ! Requête validée !
+</content>
+</ResultMessage>
+<ResultCode>
+<time>1760705262248</time>
+<content>
+1
+</content>
+</ResultCode>
+<AttemptQuestion>
+<time>1760705415972</time>
+<content>
+2_5
+</content>
+</AttemptQuestion>
+<AttemptQuery>
+<time>1760705415972</time>
+<content>
+SELECT id_film,titre,annee_sortie
+FROM FILM 
+WHERE id_film IN (1,2,3,5,6,12,22,23,30,40)
+ORDER BY id_film DESC 
+</content>
+</AttemptQuery>
+<ResultMessage>
+<time>1760705415983</time>
+<content>
+Bravo ! Requête validée !
+</content>
+</ResultMessage>
+<ResultCode>
+<time>1760705415983</time>
+<content>
+1
+</content>
+</ResultCode>
+<AttemptQuestion>
+<time>1760705567120</time>
+<content>
+3_1
+</content>
+</AttemptQuestion>
+<AttemptQuery>
+<time>1760705567120</time>
+<content>
+SELECT id_real,prenom,nom
+FROM REALISATEUR 
+WHERE nom LIKE '%a%' AND annee_n > 1965
+ORDER BY id_real DESC 
+</content>
+</AttemptQuery>
+<ResultMessage>
+<time>1760705567134</time>
+<content>
+Bravo ! Requête validée !
+</content>
+</ResultMessage>
+<ResultCode>
+<time>1760705567134</time>
+<content>
+1
+</content>
+</ResultCode>
+<AttemptQuestion>
+<time>1760705855699</time>
+<content>
+3_2
+</content>
+</AttemptQuestion>
+<AttemptQuery>
+<time>1760705855699</time>
+<content>
+SELECT id_real,prenom,nom,annee_n
+FROM REALISATEUR 
+WHERE id_real NOT IN (2,6,7,10,20,32,33,34) AND nom LIKE '%r%'
+ORDER BY annee_n DESC,id_real ASC
+</content>
+</AttemptQuery>
+<ResultMessage>
+<time>1760705855712</time>
+<content>
+Bravo ! Requête validée !
+</content>
+</ResultMessage>
+<ResultCode>
+<time>1760705855712</time>
+<content>
+1
+</content>
+</ResultCode>
+<AttemptQuestion>
+<time>1760705989047</time>
+<content>
+3_3
+</content>
+</AttemptQuestion>
+<AttemptQuery>
+<time>1760705989047</time>
+<content>
+SELECT id_real,prenom,nom
+FROM REALISATEUR 
+WHERE nom LIKE '%at%' OR nom LIKE '%er%'
+ORDER BY id_real DESC  
+</content>
+</AttemptQuery>
+<ResultMessage>
+<time>1760705989057</time>
+<content>
+Bravo ! Requête validée !
+</content>
+</ResultMessage>
+<ResultCode>
+<time>1760705989057</time>
+<content>
+1
+</content>
+</ResultCode>
+<AttemptQuestion>
+<time>1760706165044</time>
+<content>
+4_1
+</content>
+</AttemptQuestion>
+<AttemptQuery>
+<time>1760706165044</time>
+<content>
+SELECT id_real,LOWER nom AS "nom",UPPER prenom AS "PRENOM"
+FROM REALISATEUR 
+WHERE id_real < 28
+ORDER BY id_real DESC 
+</content>
+</AttemptQuery>
+<ResultMessage>
+<time>1760706165049</time>
+<content>
+Erreur de syntaxe !<br>java.sql.SQLSyntaxErrorException<br>Syntax error: Encountered "LOWER" at line 1, column 16.
+</content>
+</ResultMessage>
+<ResultCode>
+<time>1760706165049</time>
+<content>
+2
+</content>
+</ResultCode>
+<AttemptQuestion>
+<time>1760706192127</time>
+<content>
+4_1
+</content>
+</AttemptQuestion>
+<AttemptQuery>
+<time>1760706192127</time>
+<content>
+SELECT id_real,LOWER(nom) AS "nom",UPPER(prenom) AS "PRENOM"
+FROM REALISATEUR 
+WHERE id_real < 28
+ORDER BY id_real DESC 
+</content>
+</AttemptQuery>
+<ResultMessage>
+<time>1760706192140</time>
+<content>
+Bravo ! Requête validée !
+</content>
+</ResultMessage>
+<ResultCode>
+<time>1760706192140</time>
+<content>
+1
+</content>
+</ResultCode>
+<AttemptQuestion>
+<time>1760706391642</time>
+<content>
+4_2
+</content>
+</AttemptQuestion>
+<AttemptQuery>
+<time>1760706391642</time>
+<content>
+SELECT id_real,nom,SUBSTR(nom,1,2) AS "deux_premiers"
+FROM GENRE 
+WHERE id_genre < 14 
+ORDER BY id_genre DESC
+</content>
+</AttemptQuery>
+<ResultMessage>
+<time>1760706391645</time>
+<content>
+Erreur de syntaxe !<br>java.sql.SQLSyntaxErrorException<br>Column \'ID_REAL\' is either not in any table in the FROM list or appears within a join specification and is outside the scope of the join specification or appears in a HAVING clause and is not in the GROUP BY list. If this is a CREATE or ALTER TABLE  statement then \'ID_REAL\' is not a column in the target table.
+</content>
+</ResultMessage>
+<ResultCode>
+<time>1760706391645</time>
+<content>
+2
+</content>
+</ResultCode>
+<AttemptQuestion>
+<time>1760706414024</time>
+<content>
+4_2
+</content>
+</AttemptQuestion>
+<AttemptQuery>
+<time>1760706414024</time>
+<content>
+SELECT id_genre,nom_genre,SUBSTR(nom_genre,1,2) AS "deux_premiers"
+FROM GENRE 
+WHERE id_genre < 14 
+ORDER BY id_genre DESC
+</content>
+</AttemptQuery>
+<ResultMessage>
+<time>1760706414034</time>
+<content>
+Bravo ! Requête validée !
+</content>
+</ResultMessage>
+<ResultCode>
+<time>1760706414034</time>
+<content>
+1
+</content>
+</ResultCode>
+<AttemptQuestion>
+<time>1760706603071</time>
+<content>
+4_3
+</content>
+</AttemptQuestion>
+<AttemptQuery>
+<time>1760706603072</time>
+<content>
+SELECT id_real,prenom,LENGTH(nom)AS "long_nom"
+FROM REALISATEUR 
+WHERE LENGTH(prenom)=8
+ORDER BY LENGTH(nom) DESC,id_real ASC
+</content>
+</AttemptQuery>
+<ResultMessage>
+<time>1760706603084</time>
+<content>
+Bravo ! Requête validée !
+</content>
+</ResultMessage>
+<ResultCode>
+<time>1760706603084</time>
+<content>
+1
+</content>
+</ResultCode>

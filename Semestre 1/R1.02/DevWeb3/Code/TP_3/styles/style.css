@@ -1,0 +1,65 @@
+h3 /* h1*/{
+  color: red;
+  background-color: black;
+}
+
+h1 {
+  color: black;
+  background-color: black;
+}
+
+.yellow-background {
+  background-color: yellow;
+}
+
+code.blue-text {
+  color: blue;
+}
+
+#menu {
+  background-color: red;
+}
+
+h1[title] {
+  color: blue;
+}
+
+body > p {
+  color: gray;
+}
+
+div p {
+  color: brown;
+}
+
+span {
+  color: black;
+}
+p > span {
+  color: blue;
+}
+
+ol > li {
+  color: red;
+}
+ol ol > li {
+  color: green;
+}
+
+ol li {
+  font-weight: bold; 
+}
+ul li {
+  font-style: italic; 
+}
+
+h1:hover {
+  color: red;
+}
+
+p {
+  color: gray;
+}
+p::first-line {
+  color: red;
+}
